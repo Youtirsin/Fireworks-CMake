@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\GitHub\Fireworks-CMake\build\CMakeFiles\ce260a57f27b754e125701b30ddb5c90\RUN_TESTS_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{678E7A99-4F8B-3EAB-9393-A3624F7B2E6E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

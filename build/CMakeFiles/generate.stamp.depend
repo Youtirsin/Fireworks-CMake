@@ -1,0 +1,38 @@
+# CMake generation dependency list for this directory.
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeCInformation.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeCXXInformation.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeCommonLanguageInclude.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeDependentOption.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeGenericSystem.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeInitializeConfigs.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeLanguageInformation.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeRCInformation.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInformation.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CMakeSystemSpecificInitialize.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CPack.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CPackComponent.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CTest.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CTestTargets.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/CTestUseLaunchers.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-C.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Compiler/MSVC-CXX.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/DartConfiguration.tcl.in
+D:/program files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-C.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC-CXX.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Platform/Windows-MSVC.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Platform/Windows.cmake
+D:/program files/CMake/share/cmake-3.21/Modules/Platform/WindowsPaths.cmake
+D:/program files/CMake/share/cmake-3.21/Templates/CPackConfig.cmake.in
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLConfig.cmake
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLConfigDependencies.cmake
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLConfigVersion.cmake
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLSharedTargets-debug.cmake
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLSharedTargets-release.cmake
+D:/vcpkg/installed/x86-windows/share/sfml/SFMLSharedTargets.cmake
+D:/vcpkg/scripts/buildsystems/vcpkg.cmake
+D:/workspace/GitHub/Fireworks-CMake/CMakeLists.txt
+D:/workspace/GitHub/Fireworks-CMake/build/CMakeFiles/3.21.3/CMakeCCompiler.cmake
+D:/workspace/GitHub/Fireworks-CMake/build/CMakeFiles/3.21.3/CMakeCXXCompiler.cmake
+D:/workspace/GitHub/Fireworks-CMake/build/CMakeFiles/3.21.3/CMakeRCCompiler.cmake
+D:/workspace/GitHub/Fireworks-CMake/build/CMakeFiles/3.21.3/CMakeSystem.cmake
