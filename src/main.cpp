@@ -24,13 +24,12 @@ int main()
 
     // global clock
     sf::Clock clock;
+    sf::Time t;
     sf::Time elapsed;
 
     // run the program as long as the window is open
     while (window.isOpen())
     {
-        sf::Time t = clock.restart();
-
         // check all the window's events that were triggered since the last iteration of the loop
         sf::Event event;
         while (window.pollEvent(event))
@@ -66,7 +65,7 @@ int main()
 
         for (auto it = particle_grp.begin(); it != particle_grp.end();)
         {
-            it->update(t);
+            it->update();
             window.draw(*it);
 
             if (!it->isAlive())
@@ -84,6 +83,9 @@ int main()
             fireworks_grp.emplace_back(randColor(), WIN_HEIGHT, WIN_WIDTH);
             elapsed = sf::Time::Zero;
         }
+
+        t = clock.restart();
+        sf::sleep(sf::seconds(DELTA_T - t.asSeconds()));
 
         // end the current frame
         window.display();

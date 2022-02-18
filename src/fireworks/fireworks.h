@@ -15,16 +15,17 @@ inline sf::Color randColor()
 
 
 // physics
-const float DELTA_T = 1 / 60.f;
-const float G = 19.6;
-const float PARTICLE_RESISTENCE = 9.8;
+const int FPS = 120;
+const float DELTA_T = 1.0 / FPS;
+const float G = 40;
+const float PARTICLE_RESISTENCE = 16;
 
 
 class Particle : public sf::CircleShape
 {
 public:
 	Particle(sf::Color color, sf::Vector2f pos);
-	void update(sf::Time elapsed);
+	void update();
 	bool isAlive() const
 	{
 		return this->alive;

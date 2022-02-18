@@ -24,7 +24,7 @@ Fireworks::Fireworks(sf::Color color, float y_, float x_top) :
 	sf::CircleShape(8.f)
 {
 	this->alive = true;
-	this->vy = -rand(100, 150);
+	this->vy = -rand(160, 240);
 	this->setFillColor(color);
 	this->setPosition(rand(0, int(x_top) - 15), y_);
 }
@@ -36,7 +36,7 @@ void Fireworks::update()
 	{
 		this->move(0, vy * DELTA_T);
 		this->vy += G * DELTA_T;
-		if (this->vy > -1)
+		if (this->vy > -30)
 		{
 			this->alive = false;
 		}
