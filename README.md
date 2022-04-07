@@ -12,9 +12,7 @@
 
 * CMake
 
-## Note
-
-You can get the VS VC++ version [here](https://github.com/Youtirsin/Fireworks)
+# 
 
 # 烟花
 
@@ -29,7 +27,3 @@ You can get the VS VC++ version [here](https://github.com/Youtirsin/Fireworks)
   用来安装SFML库。当然你可以按照喜欢的方式安装或使用该库。
 
 * CMake
-
-## 注意
-
-VS VC++版本在[这里](https://github.com/Youtirsin/Fireworks)
