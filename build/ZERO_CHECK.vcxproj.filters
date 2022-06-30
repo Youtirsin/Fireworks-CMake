@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workspace\github\Fireworks-CMake\build\CMakeFiles\73b2432273ce6c8758438d309f08fe14\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F11309F6-C98C-30EA-893D-93E9306F9A94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

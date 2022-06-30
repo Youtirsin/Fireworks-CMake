@@ -1,23 +1,20 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(Fireworks VERSION 0.1.0)
 
-include(CTest)
-enable_testing()
+# locate sfml
+set(SFML_DIR "D:/Programs/SFML-2.5.1/lib/cmake/SFML")
+set(SFML_STATIC_LIBRARIES TRUE)
+find_package(SFML COMPONENTS graphics window system)
 
-set(CMAKE_CXX_STANDARD 11)
-
-find_package(SFML COMPONENTS system window graphics CONFIG REQUIRED)
-
-install(IMPORTED_RUNTIME_ARTIFACTS system window graphics
-    LIBRARY DESTINATION lib
-    LIBRARY DESTINATION lib
-    LIBRARY DESTINATION lib
+# head directory
+include_directories("./include")
+# .cpp files
+aux_source_directory("./src" cppfiles)
+# add exe
+add_executable(fireworks main.cpp ${cppfiles})
+# link to libraries
+target_link_libraries(fireworks
+  sfml-system 
+  sfml-graphics 
+  sfml-window
 )
-
-add_subdirectory(src/fireworks)
-add_subdirectory(src)
-
-include(InstallRequiredSystemLibraries)
-set(CPACK_PROJECT_NAME ${PROJECT_NAME})
-set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
-include(CPack)
